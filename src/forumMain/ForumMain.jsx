@@ -36,7 +36,7 @@ function forumPost({ title, author, comments, likes }) {
 function forumPostList() {
   return (
     <div className='post-list'>
-      {samplePosts.map((post) => (
+      {forumPost.map((post) => (
         <forumPost
           key={post.title}
           title={post.title}
