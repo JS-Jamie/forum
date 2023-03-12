@@ -1,7 +1,8 @@
 import './App.css';
+import ForumPostList from './forumMain/ForumMain';
 
 function App() {
-  return <div>forum to be made here</div>;
+  return <ForumPostList />;
 }
 
 export default App;

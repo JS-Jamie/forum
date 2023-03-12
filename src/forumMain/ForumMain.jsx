@@ -33,7 +33,7 @@ function forumPost({ title, author, comments, likes }) {
   );
 }
 
-function forumPostList() {
+function ForumPostList() {
   return (
     <div className='post-list'>
       {forumPost.map((post) => (
@@ -49,4 +49,4 @@ function forumPostList() {
   );
 }
 
-export default forumPostList;
+export default ForumPostList;
