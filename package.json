@@ -1,0 +1,24 @@
+{
+  "name": "forum",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-Jamie/forum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-Jamie/forum/issues"
+  },
+  "homepage": "https://github.com/JS-Jamie/forum#readme",
+  "devDependencies": {
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
+}
