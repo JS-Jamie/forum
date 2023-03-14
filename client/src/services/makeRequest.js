@@ -1,5 +1,9 @@
 import axios from 'axios';
 
+const api = axios.create({
+  baseURL: process.env.REACT_APP_SERVER_URL,
+});
+
 export function makeRequest(url, options) {
   return axios(url, options)
     .then((res) => res.data)
