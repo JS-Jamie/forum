@@ -16,10 +16,27 @@ const commentSchema = mongoose.Schema(
     updatedAt: {
       type: Date,
     },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      requried: true,
+      ref: 'User',
+    },
     userId: {
       type: String,
       required: true,
     },
+    post: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: 'Post',
+    },
+    postId: {
+      type: String,
+      required: true,
+    },
+    parent: {},
+    children: [],
+    parentId: { type: String },
   },
   {
     timestamps: true,
