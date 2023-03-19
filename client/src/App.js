@@ -1,8 +1,7 @@
 import './App.css';
-import ForumPostList from './forumMain/ForumMain';
-
+import Home from './pages/home/Home';
 function App() {
-  return <ForumPostList />;
+  return <Home />;
 }
 
 export default App;
