@@ -1,4 +1,5 @@
 import React from 'react';
+import './thread.css';
 
 const Thread = () => {
   return (
